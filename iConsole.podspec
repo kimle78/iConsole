@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/nicklockwood/iConsole'
   s.authors  = 'Nick Lockwood'
   s.source   = { :git => 'https://github.com/nicklockwood/iConsole.git', :tag => '1.5.2' }
-  s.source_files = 'iConsole', 'GTM'
+  s.source_files = 'iConsole/*.{h,m}', 'GTM/*.{h,m}'
   s.requires_arc = true
   s.ios.deployment_target = '4.3'
 end
